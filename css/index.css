@@ -7,6 +7,7 @@
 
 a{
     text-decoration: none;
+    background-color: transparent;
 }
 .tou{
     width: 100%;
@@ -122,6 +123,29 @@ a{
     background-color: #424242; 
     float: right; 
     margin-top:25px;
+}
+.bai .ju .zhu input{
+    width:250px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    outline: none;
+    float: left;
+    border: 1px solid #b0b0b0;
+    text-indent: 1em;
+    background-color: #fff;
+}
+.bai .ju .zhu button{
+    width:50px;
+    height: 50px;
+    border: 1px solid transparent;
+    outline: none;
+    box-sizing: border-box;
+    float: right;
+    border: 1px solid #b0b0b0;
+    border-left: 0;
+    background-color: #fff;
+    cursor: pointer;
 }
 .zt{
     width: 1226px;
@@ -513,44 +537,422 @@ a .ll{
 .rem .bottom .hua .qian{
     color:#ff6700;
 }
-.wu{
+.bo{
     width: 100%;
-    height: 460px;
+    height: 475px;
     background-color: #fff;
-    
 }
-.you{
+.bo .lun{
     width: 1226px;
     height: 460px;
-    background-color: aqua;
-    margin: auto;
+    background-color: red;
+    margin: 0 auto 14px;
+    position: relative;
+    
 }
-.wu .you .zuo{
+.bo .lun .botu{
+    width: 1226px;
+    height: 460px;
+    background-color: goldenrod;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.bo .lun .botu .tu{
+    width: 1226px;
+    height: 460px;
+    background-color: rebeccapurple;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.bo .lun .ce{
     width: 234px;
     height: 460px;
-    background-color: #ff6700;
-    float: left;
+    background-color: rgba(72, 73, 73, 0.6);
+    position: absolute;
+    top:0;
+    left: 0;
 }
-.wu .you .right{
-    width: 992px;
-    height: 460px;
-    background-color: plum;
+.bo .lun .ce .cdh{
+    width: 234px;
+    height: 42px;
+    background-color: rgba(200, 200, 200, 0);
+    color: #fff;
+    line-height: 42px;
+}
+.bo .lun .ce .cdh1{
+    margin-top: 20px;
+}
+.bo .lun .ce .cdh:hover{
+    background-color: #ff6700;
+}
+.bo .lun .ce .cdh p{
+    background-color:transparent;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.bo .lun .zuojian{
+    width: 41px;
+    height: 69px;
+    background-color: aqua;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    left: 234px;
+}
+.bo .lun .youjian{
+    width: 41px;
+    height: 69px;
+    background-color: aqua;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    right: 0;
+}
+.bo .lun .dian{
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    bottom:26px;
+    right: 35px;
+    background-color: transparent;
+}
+.bo .lun .dian .yuan{
+    width: 6px;
+    height: 6px;
+    border: 2px solid #b0b0b0;
+    background-color: #757575;
+    margin: 0 5px 0 5px;
     float: left;
+    border-radius: 50%;
+}
+.bo .lun .dian .yuan:hover{
+    background-color: #fff;
 }
 .dotu{
     width: 100%;
     height: 170px;
     background-color: #fff;
+
 }
 .dtu{
     width: 1226px;
-    height: 184px;
-    background-color: aqua;
+    height: 170px;;
     margin: auto;
 }
 .dtu .left{
     width:234px ;
     height:170px ;
     background-color: #333;
-    margin-top: 14px;
+    float: left;
+    
 }
+.dtu .right{
+    width: 992px;
+    height: 170px;
+    background-color: #fff;
+    float: right;
+    margin-bottom:30px; 
+}
+.dtu .right .san{
+    width: 316px;
+    height: 170px;
+    background-color: #fff;
+    margin-left: 14px;
+    float: left;
+}
+.dtu .right .right .wo{
+    display: inline-block;
+    height: 30px;
+}
+.dtu .right .san img{
+    width: 316px;
+    height: 170px;
+}
+.chatu{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    display: block;
+
+}
+.chatu .tuuu{
+    display: block;
+    width: 1226px;
+    height: 120px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.neir{
+    width: 1226px;
+    height:483px ;
+    background-color: #f5f5f5;
+    margin: 30px auto 0 ;
+}
+.neir .shang{
+    width: 1226px;
+    height: 58px;
+    background-color: #f5f5f5;
+    line-height: 58px;
+    font-size: 26px;
+    color:#757575;
+}
+.neir .tus{
+    width: 296px;
+    height: 374px;
+    float: left;
+    margin: 0 0 14px 14px;
+    background-color: #fff;
+    border-top: 1px solid #ff6700;
+    padding-top: 45px;
+    position:relative;
+}
+.neir .tus1{
+    margin-left: 0;
+}
+.neir .tus p{
+    text-align: center;
+    background-color: transparent;
+    font-size: 18px;
+    color: #ff6700;
+}
+.neir .tus .st{
+    width: 296px;
+    height: 340px;
+    background-color: #fff;
+    margin-top: 78px;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.neir .tus .st a p{
+
+    font-size: 20px;
+    color: #000;
+}
+.neir .tus .st p{
+    margin-top: 10px;
+    font-size: 5px;
+    color: #757575;
+}
+.neir .tus .tt{
+    width: 216px;
+    height: 154px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-top: 80px;
+
+}
+.ship{
+    width: 1226px;
+    height: 343px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+.ship .sh{
+    width: 1226px;
+    height: 58px;
+    background-color: #f5f5f5;
+    line-height: 53px;
+    font-size: 26px;
+    color:#757575;
+}
+.ship .hh{
+    width: 296px;
+    height: 285px;
+    background-color: #fff;
+    float: left;
+    margin-left: 14px;
+}
+.ship .hh1{
+    margin-left: 0;
+}
+.ship .hh .ss{
+    width: 296px;
+    height: 180px;
+    background-color: red;
+    position:relative;
+}
+.ship .hh .ss .tuo{
+    width: 30px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 40%;
+    background-color: transparent;
+    position:absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.ship .hh .ss .tuo:hover{
+    background-color: #ff6700;
+    border: 2px solid #ff6700;
+}
+.ship .hh a p{
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    background-color: transparent;
+    margin-top: 30px;
+}
+.ship .hh p{
+    text-align: center;
+    font-size: 12px;
+    color: #757575;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.dibu{
+    width: 100%;
+    height:272px ;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.dibu .ding{
+    width: 1226px;
+    height:80px ;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.dibu .ding a{
+    font-size: 18px;
+    margin-left: 71px;
+    line-height: 80px;
+    margin-right: 46px;
+    color:#757575;
+}
+.dibu .ding span{
+    color:#b0b0b0;
+    font-size: 20px;
+}
+.dibu .zhong{
+    width: 1226px;
+    height:192px ;
+    background-color: #fff;
+    border-top: 1px solid #b0b0b0;
+    padding: 40px 0 40px 0;  
+    box-sizing: border-box;
+}
+.dibu .zhong .zh{
+    width: 1226px;
+    height:112px ;
+    background-color: rgb(255, 255, 255);
+}
+.dibu .zhong .zh .yi{
+    width: 160px;
+    height:112px ;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.dibu .zhong .zh p{
+    background-color: transparent;
+    font-size: 14px;
+}
+.dibu .zhong .zh a{
+    display: block;
+    margin: -15px 0 -50px 0;
+    font-size: 12px;
+}
+.dibu .zhong .zh a:hover{
+    color: #ff6700;
+}
+.dibu .zhong .zh .er{
+    width: 252px;
+    height:112px ;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    border-left: 1px solid #757575;
+}
+.dibu .zhong .zh .er p{
+    font-size: 22px;
+    margin-left: 50px;
+    color: #ff6700;
+    margin-bottom: 10px;
+}
+.dibu .zhong .zh .er pre{
+    background-color: transparent;
+    color:#757575;
+    font-size: 12px;
+    margin: 0px 0 0 50px;
+}
+.dibu .zhong .zh .er .ss{
+    margin-left: 70px;
+}
+.dibu .zhong .zh .er .xiao{
+    display: block;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #ff6700;
+    margin: 15px 0 0 50px; 
+    background-color: #fff;
+    
+}
+.dibu .zhong .zh .er .xiao a{
+    display: block;
+    color: #ff6700;
+    margin-left:  35px;
+    line-height: 62px;
+
+}
+.dibu .zhong .zh .er .xiao:hover{
+    background-color: #ff6700;
+    
+}
+.dibu .zhong .zh .er .xiao a:hover{
+    color: #fff;
+}
+.red{
+    width: 1226px;
+    height: 232px;
+    margin: 30px auto;
+}
+.red .xm{
+    width: 55px;
+    height:55px ;
+    background-color: #ff6700;
+    float: left;
+    cursor: pointer;
+    background-image: url("../img/001.png")
+}
+.red a{
+    font-size: 12px;
+    color: #424242;
+    float: left;
+    margin-left: 5px;
+    margin-right: 1px;
+}
+.red .mm{
+    margin-left: 8px;
+}
+.red a:hover{
+    color: #ff6700;
+}
+.red .cmm{
+    width: auto;
+    height: 14px;
+}
+.red .con{
+    width: auto;
+    height: 72px;
+    margin: 5px 0 0 55px;
+}
+.red .con p a{
+    color: #b0b0b0;
+}
+.red .tu{
+    width: 83px;
+    height: 28px;
+    float: left;
+    margin-left: 55px;
+}
+.red .tp{
+    width: 85px;
+    height: 28px;
+    float: left;
+    margin-left: 5px;
+}
+

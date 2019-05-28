@@ -69,7 +69,7 @@ a{
 .tou .rong .shopping{
     width: 120px;
     height: 40px;
-    background-color: #424242;
+    background-color:#424242;
     float: right;
     color:#b0b0b0;
     margin-left: 20px;
@@ -78,15 +78,18 @@ a{
     background-color:transparent;
     color:#757575;
     line-height: 40px;
-    margin-left: 20px
+    margin-left: 15px
 }
-.tou .rong .shopping span:hover{
+.tou .rong .shopping span .icon-gouwuchekong{
+    background-color: transparent;
+}
+.tou .rong .shopping:hover span{
     color: #ff6700;
 }
 .tou .rong .shopping:hover{
-    color: #ff6700;
     background-color: #f5f5f5;
     cursor: pointer;
+    color: #ff6700;
 }
 .bai{
     width: 100%;
@@ -131,7 +134,7 @@ a{
     border: 1px solid transparent;
     outline: none;
     float: left;
-    border: 1px solid #b0b0b0;
+    border: 1px solid #ff6700;
     text-indent: 1em;
     background-color: #fff;
 }
@@ -142,11 +145,20 @@ a{
     outline: none;
     box-sizing: border-box;
     float: right;
-    border: 1px solid #b0b0b0;
+    border: 1px solid #ff6700;
     border-left: 0;
     background-color: #fff;
     cursor: pointer;
 }
+.bai .ju .zhu button:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+.bai .ju .zhu button .icon-sousuo{
+    background-color: transparent;
+    font-size: 18px;
+}
+
 .zt{
     width: 1226px;
     height: auto;
@@ -199,6 +211,11 @@ a{
     margin-left:14px;
     margin-bottom: 14px;
     float:left;
+}
+.zt .bottom .box:hover{
+    transform: translateY(-3px);
+    transition: 1s;
+    box-shadow: 0 10px 20px 3px #dddddd;
 }
 .zt .bottom .box1{
     height: 614px;
@@ -270,9 +287,9 @@ a .lj{
     margin-left: 20px;
 }
 .jiad .top span:hover{
-    color:darkorange;
-    border-bottom: 2px solid darkgoldenrod;
-   
+    color:#ff6700;
+    border-bottom: 2px solid #ff6700;
+    padding-bottom: 5px;
 }
 .jiad .bottom{
     width: auto;
@@ -281,8 +298,13 @@ a .lj{
 .jiad .bottom .left{
     width: 234px;
     height: 614px;
-    background-color: r#f5f5f5;
+    background-color: #f5f5f5;
     float:left;
+}
+.jiad .bottom .box:hover{
+    transform: translateY(-3px);
+    transition: 1s;
+    box-shadow: 0 10px 20px 3px #ddd;
 }
 .jiad .bottom .left .box{
     width: 234px;
@@ -299,7 +321,6 @@ a .lj{
     background-color: #f5f5f5;
     float:left;
 }
-
 .jiad .bottom .right .box{
     width: 234px;
     height: 300px;
@@ -307,6 +328,33 @@ a .lj{
     margin-left: 14px;
     margin-bottom: 14px;
     float:left;
+    position: relative;
+    overflow: hidden;
+}
+.jiad .bottom .right .box .son{
+    width: 234px;
+    height: 90px;
+    background-color: #ff6700;
+    position: absolute;
+    bottom: -114px;
+}
+.jiad .bottom .right .box .son p{
+    background-color: transparent;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.jiad .bottom .right .box .son span{
+    background-color: transparent;
+    color: #dddddd;
+    display: block;
+    margin-top: 30px;
+    font-size: 12px;
+    margin-left: 40px;
+}
+.jiad .bottom .right .box:hover .son{
+    transform: translateY(-114px);
+    transition: 0.5s;
 }
 .jiad .bottom .right .box1{
     margin-bottom: 0px;
@@ -447,6 +495,11 @@ a .ll{
     margin-right: 14px;
     padding:40px 0 15px 0;
 }
+.wei .bottom .mo:hover{
+    transform: translateY(-3px);
+    transition: 1s;
+    box-shadow: 0 10px 20px 3px #dddddd;
+}
 .wei .bottom .mo1{
     margin-right:0px;
 }
@@ -504,6 +557,11 @@ a .ll{
     margin-left: 14px;
     margin-bottom: 14px;
 }
+.rem .bottom .hua:hover{
+    transform: translateY(-3px);
+    transition: 1s;
+    box-shadow: 0 10px 20px 3px #dddddd;
+}
 .rem .bottom .hua1{
     margin-left: 0;
 }
@@ -515,12 +573,15 @@ a .ll{
 .rem .bottom .hua p{
     color:#333;
     margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
     background-color: #ffffff;
 }
 .rem .bottom .hua .lai{
     display: block;
     color: #b0b0b0;
     margin-top: 20px;
+    margin-left: 30px;
     background-color: #ffffff;
     font-size: 12px;
 }
@@ -528,6 +589,7 @@ a .ll{
     display: block;
     color: #333;
     margin-top: 20px;
+    margin-left: 30px;
     background-color: #ffffff;
     font-size: 14px;
 }
@@ -580,6 +642,13 @@ a .ll{
     background-color: rgba(200, 200, 200, 0);
     color: #fff;
     line-height: 42px;
+    position: relative;
+}
+.bo .lun .ce .cdh .icon-youjiantou{
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 20px;
 }
 .bo .lun .ce .cdh1{
     margin-top: 20px;
@@ -595,7 +664,7 @@ a .ll{
 .bo .lun .zuojian{
     width: 41px;
     height: 69px;
-    background-color: aqua;
+    background-color: transparent;
     position: absolute;
     top:0;
     bottom:0;
@@ -605,12 +674,42 @@ a .ll{
 .bo .lun .youjian{
     width: 41px;
     height: 69px;
-    background-color: aqua;
+    background-color: transparent;
     position: absolute;
     top:0;
     bottom:0;
     margin: auto;
     right: 0;
+}
+.bo .lun .youjian .icon-youjiantou{
+    background-color: transparent;
+    font-size: 69px;
+    position: absolute;
+    top: 0px;
+    margin: auto;
+    left: -12px;
+    color: #b0b0b0;
+}
+.bo .lun .youjian:hover{
+    background-color: rgba(200, 200, 200, 0.5);
+}
+.bo .lun .youjian:hover .icon-youjiantou{
+    color: #fff;
+}
+.bo .lun .zuojian:hover{
+    background-color: rgba(200, 200, 200, 0.5);
+}
+.bo .lun .zuojian:hover .icon-mjiantou-copy{
+    color: #fff;
+}
+.bo .lun .zuojian .icon-mjiantou-copy{
+    background-color: transparent;
+    font-size: 55px;
+    position: absolute;
+    top: 5px;
+    margin: auto;
+    left: -12px;
+    color: #b0b0b0;
 }
 .bo .lun .dian{
     width: 100px;
@@ -646,9 +745,113 @@ a .ll{
 .dtu .left{
     width:234px ;
     height:170px ;
-    background-color: #333;
+    background-color: #5F5750;
     float: left;
+    padding: 3px;
+    box-sizing: border-box;
     
+}
+.dtu .left .liu{
+    width: 76px;
+    height: 82px;
+    background-color: #5F5750;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 3px;
+    position: relative;
+}
+.dtu .left .liu .xiao{
+    width: 72px;
+    height: 24px;
+    background-color:transparent;
+    position: absolute;
+    top: 15px;
+    left: 1px;
+}
+.dtu .left .liu .icon-xuangoushouji{
+    background-color: transparent;
+    font-size: 35px;  
+    color: #D9D9D1;
+    line-height: 24px;
+    margin-left: 18px;
+    font-weight: bold;
+}
+.dtu .left .liu .icon-liwu{
+    background-color: transparent;
+    font-size: 30px;  
+    color: #D9D9D1;
+    line-height: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.dtu .left .liu .icon-Fma{
+    background-color: transparent;
+    font-size: 25px;  
+    color: #D9D9D1;
+    line-height: 24px;
+    margin-left: 22px;
+    font-weight: bold;
+}
+.dtu .left .liu .icon-mifenqia-copy{
+    background-color: transparent;
+    font-size: 25px;  
+    color: #D9D9D1;
+    line-height: 24px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.dtu .left .liu .icon-huafeichongzhi{
+    background-color: transparent;
+    font-size: 30px;  
+    color: #D9D9D1;
+    line-height: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.dtu .left .liu:hover .icon-mifenqia-copy{
+    color: #fff;
+}
+.dtu .left .liu:hover .icon-huafeichongzhi{
+    color: #fff;
+}
+.dtu .left .liu:hover .icon-Fma{
+    color: #fff;
+}
+.dtu .left .liu:hover .icon-liwu{
+    color: #fff;
+}
+.dtu .left .liu:hover .icon-xuangoushouji {
+    color: #fff;
+} 
+.dtu .left .liu:hover p{
+    color: #fff;
+}
+.dtu .left .liu .shu{
+    width: 1px;
+    height: 68px;
+    background-color: #757575;
+    color: transparent;
+    position: absolute;
+    top:5px;
+    right:0;
+}
+.dtu .left .liu .heng{
+    width: 62px;
+    height: 1px;
+    background-color: #757575;
+    color: transparent;
+    position: absolute;
+    bottom:3px;
+    right:8px;
+}
+.dtu .left .liu p{
+    background-color: transparent;
+    color:#D9D9D1;
+    font-size: 12px;
+    margin: 40px 10px;
+}
+.dtu .left .liu .m{
+    margin-left: 18px;
 }
 .dtu .right{
     width: 992px;
@@ -711,14 +914,26 @@ a .ll{
     padding-top: 45px;
     position:relative;
 }
+.neir .tus:hover{
+    transform: translateY(-3px);
+    transition: 1s;
+    box-shadow: 0 10px 20px 3px #dddddd;
+}
 .neir .tus1{
     margin-left: 0;
 }
+.neir .tus2{
+    border-top: 1px solid #BCDCA1; 
+}
+
 .neir .tus p{
     text-align: center;
     background-color: transparent;
     font-size: 18px;
     color: #ff6700;
+}
+.neir .tus2 p{
+    color: #BCDCA1;
 }
 .neir .tus .st{
     width: 296px;
@@ -728,6 +943,68 @@ a .ll{
     position:absolute;
     top: 0;
     left: 0;
+}
+.neir .tus .st .lbd{
+    width: 102px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.neir .tus .st .lbd .dian{
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #757575;
+    cursor: pointer;
+}
+.neir .tus .st .lbd .dian:hover{
+    background-color: #ff6700;
+}
+.neir .tus .st .lbd .d1{
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+    border: 2px solid #ff6700;
+    background-color: #fff;
+    margin-top: -2px;
+}
+.neir .tus2 .st .lbd{
+    width: 140px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.neir .tus2 .st .lbd .dian{
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #757575;
+    cursor: pointer;
+}
+.neir .tus2 .st .lbd .dian:hover{
+    background-color: #ff6700;
+}
+.neir .tus2 .st .lbd .d1{
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+    border: 2px solid #ff6700;
+    background-color: #fff;
+    margin-top: -2px;
 }
 .neir .tus .st a p{
 
@@ -746,6 +1023,9 @@ a .ll{
     margin-left: 50px;
     margin-top: 80px;
 
+}
+.neir .tus .tt img{
+    background-color: transparent;
 }
 .ship{
     width: 1226px;
@@ -769,6 +1049,11 @@ a .ll{
     float: left;
     margin-left: 14px;
 }
+.ship .hh:hover{
+    transform: translateY(-3px);
+    transition: 1s;
+    box-shadow: 0 10px 20px 3px #dddddd;
+}
 .ship .hh1{
     margin-left: 0;
 }
@@ -788,9 +1073,16 @@ a .ll{
     left: 20px;
     bottom: 10px;
 }
-.ship .hh .ss .tuo:hover{
+.ship .hh .ss:hover .tuo{
     background-color: #ff6700;
     border: 2px solid #ff6700;
+}
+.ship .hh .ss .icon-bofang{
+    color: #fff;
+    background-color: transparent;
+    position: absolute;
+    left: 28px;
+    bottom:  13px;
 }
 .ship .hh a p{
     text-align: center;
@@ -829,6 +1121,9 @@ a .ll{
     color:#b0b0b0;
     font-size: 20px;
 }
+.dibu .ding a:hover{
+    color: #ff6700;
+}
 .dibu .zhong{
     width: 1226px;
     height:192px ;
@@ -856,9 +1151,6 @@ a .ll{
     display: block;
     margin: -15px 0 -50px 0;
     font-size: 12px;
-}
-.dibu .zhong .zh a:hover{
-    color: #ff6700;
 }
 .dibu .zhong .zh .er{
     width: 252px;
@@ -955,4 +1247,81 @@ a .ll{
     float: left;
     margin-left: 5px;
 }
-
+body{
+    position: relative;
+}
+.zhi{
+    width: 26px;
+    height: 200px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 35px;
+}
+.zhi .box{
+    width: 26px;
+    height: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+}
+.zhi .box1{
+    border-bottom: 0;
+}
+.zhi .box .icon-shouji{
+    background-color: transparent;
+    color: #dddddd;
+    font-size: 25px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+.zhi .box .icon-renwu1{
+    background-color: transparent;
+    color: #ddd;
+    font-size: 25px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+.zhi .box .icon-xiulixian{
+    background-color: transparent;
+    color: #dddddd;
+    font-size: 25px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+.zhi .box .icon-kefu{
+    background-color: transparent;
+    color: #dddddd;
+    font-size: 25px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+.zhi .box .icon-gouwuchekong{
+    background-color: transparent;
+    color: #dddddd;
+    font-size: 25px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+.zhi .box:hover .icon-shouji{
+    color: #ff6700;
+} 
+.zhi .box:hover .icon-renwu1{
+    color: #ff6700;
+}
+.zhi .box:hover .icon-xiulixian{
+    color: #ff6700;
+}
+.zhi .box:hover .icon-kefu{
+    color: #ff6700;
+}
+.zhi .box:hover .icon-gouwuchekong{
+    color: #ff6700;
+}

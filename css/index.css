@@ -134,9 +134,16 @@ a{
     border: 1px solid transparent;
     outline: none;
     float: left;
-    border: 1px solid #ff6700;
+    border: 1px solid #B0B0B0;
     text-indent: 1em;
     background-color: #fff;
+}
+.bai .ju .zhu:hover input{
+    border: 1px solid #757575;
+    border-right: 0;
+}
+.bai .ju .zhu:hover button{
+    border: 1px solid #757575;
 }
 .bai .ju .zhu button{
     width:50px;
@@ -145,7 +152,7 @@ a{
     outline: none;
     box-sizing: border-box;
     float: right;
-    border: 1px solid #ff6700;
+    border: 1px solid #B0B0B0;
     border-left: 0;
     background-color: #fff;
     cursor: pointer;
@@ -153,6 +160,7 @@ a{
 .bai .ju .zhu button:hover{
     background-color: #ff6700;
     color: #fff;
+    border: 1px solid #ff6700;
 }
 .bai .ju .zhu button .icon-sousuo{
     background-color: transparent;
@@ -239,10 +247,18 @@ a{
     background-color:white;
 }
 .bottom .box .wen{
+    width: 214px;
+    height: 18px;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     text-align: center;
     font-size: 12px;
     color: #b0b0b0;
     background-color:white;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 .bottom .box .ben{
     text-align: center;
@@ -373,6 +389,13 @@ a .lj{
     background-color:white;
 }
 .jiad .bottom .right .box .mi{
+    width: 214px;
+    height: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 20px;
+    box-sizing: border-box;
     display: block;
     text-align: center;
     font-size: 14px;
@@ -575,6 +598,7 @@ a .ll{
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 10px;
+    line-height: 25px;
     background-color: #ffffff;
 }
 .rem .bottom .hua .lai{
@@ -598,6 +622,7 @@ a .ll{
 }
 .rem .bottom .hua .qian{
     color:#ff6700;
+    background-color: transparent;
 }
 .bo{
     width: 100%;
@@ -699,16 +724,16 @@ a .ll{
 .bo .lun .zuojian:hover{
     background-color: rgba(200, 200, 200, 0.5);
 }
-.bo .lun .zuojian:hover .icon-mjiantou-copy{
+.bo .lun .zuojian:hover .icon-arrow-left{
     color: #fff;
 }
-.bo .lun .zuojian .icon-mjiantou-copy{
+.bo .lun .zuojian .icon-arrow-left{
     background-color: transparent;
-    font-size: 55px;
+    font-size: 50px;
     position: absolute;
-    top: 5px;
+    top: 10px;
     margin: auto;
-    left: -12px;
+    left: -7px;
     color: #b0b0b0;
 }
 .bo .lun .dian{
@@ -925,7 +950,12 @@ a .ll{
 .neir .tus2{
     border-top: 1px solid #BCDCA1; 
 }
-
+.neir .tus3{
+    border-top: 1px solid #F29C9A; 
+}
+.neir .tus4{
+    border-top: 1px solid #2196F3;
+}
 .neir .tus p{
     text-align: center;
     background-color: transparent;
@@ -935,6 +965,12 @@ a .ll{
 .neir .tus2 p{
     color: #BCDCA1;
 }
+.neir .tus3 p{
+    color: #F29C9A;
+}
+.neir .tus4 p{
+    color: #2196F3;
+}
 .neir .tus .st{
     width: 296px;
     height: 340px;
@@ -943,6 +979,56 @@ a .ll{
     position:absolute;
     top: 0;
     left: 0;
+}
+.neir .tus .zjt{
+    width: 23px;
+    height: 55px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.neir .tus:hover .zjt{
+    background-color: #b0b0b0;
+}
+.neir .tus .zjt:hover{
+    background-color: #757575;
+}
+.neir .tus .zjt .icon-arrow-left{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 18px;
+    bottom: 0;
+    margin: auto;
+    background-color: transparent;
+
+}
+.neir .tus .yjt{
+    width: 23px;
+    height: 55px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.neir .tus .yjt .icon-right{
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    top: 16px;
+    bottom: 0;
+    margin: auto;
+    background-color: transparent;
+}
+.neir .tus:hover .yjt{
+    background-color: #b0b0b0;
+}
+.neir .tus .yjt:hover{
+    background-color: #757575;
 }
 .neir .tus .st .lbd{
     width: 102px;
@@ -1038,9 +1124,29 @@ a .ll{
     width: 1226px;
     height: 58px;
     background-color: #f5f5f5;
-    line-height: 53px;
+    line-height: 33px;
+    position: relative;
+}
+.ship .sh .s1{
     font-size: 26px;
     color:#757575;
+}
+.ship .sh .s2{
+    font-size: 16px;
+    color: #424242;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+.ship .sh . .s2 .icon-gengduo{
+    font-size: 16px;
+    color: #424242;
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+.ship .sh .s2:hover{
+    color: #ff6700;
 }
 .ship .hh{
     width: 296px;
@@ -1048,6 +1154,7 @@ a .ll{
     background-color: #fff;
     float: left;
     margin-left: 14px;
+    margin-top: 10px;
 }
 .ship .hh:hover{
     transform: translateY(-3px);
@@ -1109,10 +1216,46 @@ a .ll{
     height:80px ;
     background-color: #fff;
     margin: 0 auto;
+    position: relative;
+}
+.dibu .ding .icon-xiulixian{
+    font-size: 24px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    left: 42px;
+}
+.dibu .ding .icon-7{
+    font-size: 24px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    left: 280px;
+}
+.dibu .ding .icon-152{
+    font-size: 26px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    left: 530px;
+}
+.dibu .ding .icon-liwu{
+    font-size: 24px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    left: 770px;
+}
+.dibu .ding .icon-15{
+    font-size: 24px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    left: 1010px;
 }
 .dibu .ding a{
     font-size: 18px;
-    margin-left: 71px;
+    margin-left: 70px;
     line-height: 80px;
     margin-right: 46px;
     color:#757575;
@@ -1181,22 +1324,30 @@ a .ll{
     border: 1px solid #ff6700;
     margin: 15px 0 0 50px; 
     background-color: #fff;
+    text-align: center;
+    line-height: 30px;
     
 }
 .dibu .zhong .zh .er .xiao a{
-    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 60px;
+    background-color: transparent;
+}
+.dibu .zhong .zh .er .xiao  .ppp{
+    font-size: 14px;
+    background-color: transparent;
     color: #ff6700;
-    margin-left:  35px;
-    line-height: 62px;
 
 }
 .dibu .zhong .zh .er .xiao:hover{
     background-color: #ff6700;
-    
 }
-.dibu .zhong .zh .er .xiao a:hover{
+.dibu .zhong .zh .er .xiao:hover .ppp{
+    
     color: #fff;
 }
+
 .red{
     width: 1226px;
     height: 232px;

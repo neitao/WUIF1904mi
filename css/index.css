@@ -55,14 +55,14 @@ a{
 }
 .tou .rong .deng span{
     background-color:transparent;
-    color:#757575;
+    color:#423C37;
     
 }
 .tou .rong .deng a{
     display:inline-block;
     height: 40px;
     background-color:transparent;
-    color:#757575;
+    color:#B0B0B0;
 }
 .tou .rong  .deng a:hover{
     color: #f5f5f5;
@@ -903,18 +903,18 @@ a .ll{
     height: 170px;
 }
 .chatu{
-    width: 100%;
+    width: 1226px;
     height: 200px;
+    margin: 0 auto;
     background-color: #fff;
     display: block;
 
 }
 .chatu .tuuu{
-    display: block;
     width: 1226px;
     height: 120px;
     background-color: #fff;
-    margin: auto;
+    margin:0 auto;
     margin-bottom: 30px;
 }
 .neir{
@@ -1169,7 +1169,6 @@ a .ll{
 .ship .hh .ss{
     width: 296px;
     height: 180px;
-    background-color: red;
     position:relative;
 }
 .ship .hh .ss .tuo{
